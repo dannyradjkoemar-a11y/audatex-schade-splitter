@@ -48,8 +48,6 @@ import {
   Calculator, 
   BookOpen, 
   Split,
-  Download,
-  Loader2,
   CheckCircle2,
   ArrowLeftRight,
   Film
@@ -65,17 +63,12 @@ export default function App() {
   const [isRdwLoading, setIsRdwLoading] = useState<boolean>(false);
   const [isMarktLoading, setIsMarktLoading] = useState<boolean>(false);
   const [marktError, setMarktError] = useState<string | null>(null);
-  const [isHtmlDownloading, setIsHtmlDownloading] = useState<boolean>(false);
   const [isKnowledgeBaseOpen, setIsKnowledgeBaseOpen] = useState<boolean>(false);
   const [mainTab, setMainTab] = useState<MainTab>('splitser');
   const [activeSubView, setActiveSubView] = useState<SubView>('report');
   const [showConfig, setShowConfig] = useState<boolean>(false);
   const [tableFilterRequest, setTableFilterRequest] = useState<{ zone: string; seq: number } | null>(null);
   const [isCinemaIntroOpen, setIsCinemaIntroOpen] = useState<boolean>(true);
-
-  const isStandaloneHtml =
-    (typeof __IS_STANDALONE_HTML__ !== 'undefined' && __IS_STANDALONE_HTML__) ||
-    (typeof window !== 'undefined' && window.location.protocol === 'file:');
 
   const schade1Zone: VoertuigZone = data?.schade1Zone || 'voorzijde';
   const schade2Zone: VoertuigZone =
@@ -626,55 +619,6 @@ export default function App() {
     setMainTab('splitser');
   };
 
-  const handleDownloadHtmlApp = async () => {
-    if (isHtmlDownloading) return;
-    setIsHtmlDownloading(true);
-    try {
-      if (window.location.protocol === 'file:') {
-        const clone = document.documentElement.cloneNode(true) as HTMLElement;
-        const clonedRoot = clone.querySelector('#root');
-        if (clonedRoot) clonedRoot.innerHTML = '';
-        const htmlContent = '<!doctype html>\n' + clone.outerHTML;
-        const blob = new Blob([htmlContent], { type: 'application/octet-stream' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'Audatex-Schade-Splitter.html';
-        a.rel = 'noopener';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        setTimeout(() => URL.revokeObjectURL(url), 60000);
-        return;
-      }
-
-      const prepRes = await fetch(apiUrl('/api/download-html?prepare=1'));
-      if (!prepRes.ok) {
-        throw new Error('Kon standalone HTML-bestand niet voorbereiden.');
-      }
-
-      const res = await fetch(apiUrl('/api/download-html'));
-      if (!res.ok) {
-        throw new Error('Kon standalone HTML-bestand niet genereren.');
-      }
-      const buffer = await res.arrayBuffer();
-      const blob = new Blob([buffer], { type: 'application/octet-stream' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'Audatex-Schade-Splitter.html';
-      a.rel = 'noopener';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      setTimeout(() => URL.revokeObjectURL(url), 60000);
-    } catch (err) {
-      console.error('Fout bij downloaden HTML-app:', err);
-    } finally {
-      setIsHtmlDownloading(false);
-    }
-  };
-
   // Live market scraper (Marktplaats, AutoScout24, Gaspedaal, AutoTrack) & officiële ANWB Koerslijst
   const handleSearchMarkt = async (
     params: { kenteken?: string; merkModel: string; bouwjaar: number; kilometerstand: number },
@@ -963,7 +907,7 @@ export default function App() {
             <button
               onClick={() => setIsCinemaIntroOpen(true)}
               className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:text-slate-900 bg-white hover:bg-slate-50 border border-slate-200 transition-colors whitespace-nowrap shrink-0"
-              title="Speel de 3D bioscoop-intro opnieuw af"
+              title="Speel de introvideo opnieuw af"
             >
               <Film className="w-3.5 h-3.5 text-blue-600" />
               <span className="hidden sm:inline">Film Intro</span>
@@ -977,22 +921,6 @@ export default function App() {
               <HelpCircle className="w-3.5 h-3.5 text-slate-500" />
               <span className="hidden sm:inline">Solera Richtlijnen</span>
             </button>
-
-            {!isStandaloneHtml && (
-              <button
-                onClick={handleDownloadHtmlApp}
-                disabled={isHtmlDownloading}
-                className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-xs font-semibold text-white bg-slate-900 hover:bg-slate-800 transition-colors disabled:opacity-60 whitespace-nowrap shrink-0"
-                title="Download de volledige applicatie als los HTML-bestand voor offline gebruik"
-              >
-                {isHtmlDownloading ? (
-                  <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                ) : (
-                  <Download className="w-3.5 h-3.5" />
-                )}
-                <span className="hidden lg:inline">{isHtmlDownloading ? 'Bouwen...' : 'Download HTML'}</span>
-              </button>
-            )}
           </div>
         </div>
 
