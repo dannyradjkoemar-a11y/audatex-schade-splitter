@@ -1,0 +1,307 @@
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+S C H A D E - C A L C U L A T I E   NR  14412777                 18.11.2026
+
+
+R E S U L T A T E N B L A D
+
+   SCHADENUMMER                   : 14412777
+
+   EIGENAAR OBJECT                : AYVENS (AXUS NEDERLAND B.
+                                  : JOAN MUYSKENWEG 30
+                                  : 1114 AN AMSTERDAM
+
+
+   OBJECT-GEGEVENS
+     TYPE-CODE                    : 36 2N 07
+
+     MERK                         : MAZDA
+     MODEL/TYPE                   : 2 HYBRID (KBAC3) / PRIME-LINE
+
+     KENTEKEN                     : JRR-55-X
+     CHASSISNUMMER                : JMZKBAC360A439709
+     AFGIFTE DEEL 1/APK-DATUM     : 23.12.2025 / 23.12.2029
+     KILOMETERSTAND               : 16652  KM
+
+   EXPERTISE-GEGEVENS
+     SCHADE-DATUM /BEZICHT.-DATUM : 10.10.2026 / 18.11.2026
+
+
+     TOESTAND OBJECT              : GOED
+
+     REPARATEUR                   : SCHADENET BOURGUIGNO
+                                  : JUPITERWEG 5
+                                  : 8938 AD LEEUWARDEN
+                                  : 058-2883945
+                                  : schadenet@bourguignon.nl
+     REPARATIEDUUR                : 1
+
+
+----------------------------------------------------------------------------
+
+   SAMENVATTING VAN DE EINDCALCULATIE                                  EURO
+
+     TOTAALBEDRAG   O N D E R D E L E N                              763.95
+     TOTAALBEDRAG   A R B E I D S L O O N                            876.26
+     TOTAALBEDRAG   B I J K O M E N D E  K O S T E N                 106.71
+     TOTAALBEDRAG   S P U I T W E R K                              1 083.47
+     TOTAALBEDRAG    M I L I E U T O E S L A G                        34.80
+
+   R E P A R A T I E K O S T E N   EXCL. BTW                       2 865.19
+     BTW  21.00 %                                                    601.69
+   R E P A R A T I E K O S T E N   INCL. BTW                       3 466.88
+     INCL. BEGROTINGSKOSTEN REPARATEUR; AANTAL AE       12.00-
+
+
+                               SYSTEEM AUDATEX                 BLAD      1
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+S C H A D E - C A L C U L A T I E   NR  14412777                 18.11.2026
+
+EIGENAAR    AYVENS (AXUS NEDERLAND B.   JOAN MUYSKENWEG 30
+            1114 AN AMSTERDAM
+SCHADE-NR   14412777
+
+MERK        MAZDA                 2 HYBRID (KBAC3)      PRIME-LINE
+VTG.-ID.-NR.JMZKBAC360A439709     KENT.   JRR-55-X      TYPE-CODE   36 2N 07
+
+BASIS-      VA 01/2025            RUITMECH V/A ELEKTR   HUIS BU-SP HOOGGL ZW
+SPEC.       BU-SPIEGEL EL/VERWB   6 LUIDSPREKERS        A-LICHT M KNIP-L LED
+            LED-KOPLAMP           MISTLAMP LED          MISTACHTERLICHT
+            1490CCM 85KW HYBRID   TRANSM AUT E-CVT      BANDEN 185/65 R15..T
+            VELGEN 6 J X 15
+----------------------------------------------------------------------------
+
+O N D E R D E L E N                            PRIJSLIJST VAN  : 01.11.2026
+
+CODE-NR         BENAMING             ONDERDEEL-NR                     PRIJS
+
+0742            SPATSCHERM V R        1M0070J10                      198.23
+1738            BUITENSPIEGEL R      ;1M1J69100                      354.23
+1746            HUIS BU-SPIEGEL R    :1M0C6911100                    158.90
+7212            WIELDOP V R           1M0137190                       37.61
+----------------------------------------------------------------------------
+
+A R B E I D S L O O N   TIJDBASIS   10 AE=1 UUR      TARIEF = 11.38 EURO/AE
+
+ARB.POS.NR/  SPECIFICATIE HERSTELWERKZAAMHEDEN                  AE    ARB.-
+CODE-NR                                                               LOON
+
+S0601ARX)    SPATSCHERM V R VERNIEUWEN                          11   125.18
+             (BUMPER UITGEBOUWD)
+             OMVAT: SPATSCHERM V R UIT-/INBOUWEN
+             EN BENODIGDE AANBOUWDELEN OMBOUWEN
+GN           BUMPER V UIT-/INBOUWEN                              8    91.04
+T0304ARX)    KOPLAMP R UIT-/INBOUWEN                             8    91.04
+             (BUMPER UITGEBOUWD)
+             OMVAT NIET: KOPLAMP AFSTELLEN
+S0204ARX)    FRONTAFDEK UIT-/INBOUWEN                            8    91.04
+S0204BRX)    GRILLE O UIT-/INBOUWEN                              1    11.38
+GN           AFDEK MISTLAMP R UIT-/INBOUWEN                      1    11.38
+S1801ARX)    BUITENSPIEGEL R VERNIEUWEN (UITGEBOUWD)             2    22.76
+S1013ARX)    PORTIERGREEP BU V R UIT-/INBOUWEN                   1    11.38
+S1021ARX)    RUITSCHACHTLIJST V R BU UIT-/INBOUWEN               1    11.38
+GN           BUITENSPIEGEL V R UIT-/INBOUWEN                     2    22.76
+Q0101ARX     WIELAFDEKKING V R UIT-/INBOUWEN                     2    22.76
+GN           KOPLAMP AFSTELLEN                                   2    22.76
+
+9973         PROEFRIT UITVOEREN                                  4*   45.52
+0016         FOUTGEHEUGEN UITLE- ZEN VOOR REP                    3*   34.14
+0017         FOUTGEHEUGEN UITLE- ZEN NA REP                      3*   34.14
+
+
+                               SYSTEEM AUDATEX                 BLAD      2
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+S C H A D E - C A L C U L A T I E   NR  14412777                 18.11.2026
+
+A R B E I D S L O O N   TIJDBASIS   10 AE=1 UUR      TARIEF = 11.38 EURO/AE
+
+ARB.POS.NR/  SPECIFICATIE HERSTELWERKZAAMHEDEN                  AE    ARB.-
+CODE-NR                                                               LOON
+
+
+0281         BUMPER V HERSTELLEN                                20*  227.60
+----------------------------------------------------------------------------
+
+S P U I T W E R K         SYSTEEM AZT
+                                         SPUITMAT-PRIJZEN PER   : 19.06.2026
+
+CODE-NR      AANDUIDING   - 2-LAGEN UNI                         AE
+
+0742         SPATSCHERM V R       SPUITEN NA VERN.               9
+1746         HUIS BU-SPIEGEL R    SPUITEN NA VERN. SV1           3
+0281         BUMPER V             HERSTELSP. KUNSTSTOF          10       30*
+1522         PORTIER V R ONDER    SPUITEN NA HERST.             15
+
+             SPUITLOON                                     AE         ARB.-
+              TARIEF                  11.60 EURO/AE                   LOON
+              SPUITTIJD                                    37
+              HOOFD VOORBER. NL-SPEC. METAAL               23
+              GECOMBINEERDE VOORBER. KUNSTSTOF              8
+              TOTAAL                    10 AE/UUR :        68        788.80
+
+             SPUIT-MATERIAALKOSTEN                                    PRIJS
+              SPUITEN NA VERN.                                        67.81
+              SPUITEN NA VERN. SV1                                    11.00
+              SPUITEN NA HERST.                                       93.94
+              HERSTELSP. KUNSTSTOF                                    39.12
+              HOOFDMATERIAALCONST. NL-SPEC. METAAL                    56.80
+              GECOMB. MATERIAALCONSTANTE KUNSTSTOF                    26.00
+
+
+                               SYSTEEM AUDATEX                 BLAD      3
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+S C H A D E - C A L C U L A T I E   NR  14412777                 18.11.2026
+
+
+
+
+
+
+   E I N D C A L C U L A T I E                              EURO       EURO
+   ---------------------------
+
+   O N D E R D E L E N                                    748.97
+     KLEINMATERIAAL   (  2.0%)                             14.98
+   TOTAALBEDRAG ONDERDELEN .....................................     763.95
+
+   A R B E I D S L O O N   TIJDBASIS   10 AE = 1 UUR
+     TOTAAL               77 AE  X   11.38 EURO/AE        876.26
+   TOTAALBEDRAG ARBEIDSLOON ....................................     876.26
+
+   B I J K O M E N D E  K O S T E N
+     ANTI-ROESTBEHANDELING                                 15.65
+     UITLIJNEN                                             91.06
+   TOTAALBEDRAG BIJKOMENDE KOSTEN...............................     106.71
+
+   S P U I T W E R K
+     ARBEIDSLOON                                          788.80
+     SPUIT-MATERIAALKOSTEN                                294.67
+   TOTAALBEDRAG SPUITWERK ......................................   1 083.47
+                                                                -----------
+   REPARATIEKOSTEN EXCL. MILIEUTOESLAG                             2 830.39
+     TOESLAG WP+SP (77 AE + 68 AE) X 0.24 EURO/AE          34.80
+   TOTAALBEDRAG MILIEUTOESLAG...................................      34.80
+
+   REPARATIEKOSTEN EXCL. BTW....................................   2 865.19
+   -------------------------                                     ----------
+     BTW  21.00 %                                                    601.69
+
+   R E P A R A T I E K O S T E N   INCL. BTW....................   3 466.88
+
+     INCL. BEGROTINGSKOSTEN REPARATEUR; AANTAL AE          12.00-
+
+
+VERKLARINGEN:
+ONDERDEELPRIJS = PRIJS FABR./IMP.      * = GEBRUIKERSOPGAVE
+ONDERDEELNR. NIET ALTIJD BESTELNR.     : = ONDERDEEL IN KLEUR GELEVERD
+; = OND.NR. NIET VOOR BESTELLING       GN = GEEN ONDERDEEL-/ARB.-POS.-NR.
+INCL. UNDERCOATING/ROESTPREVENTIE      ) = TIJDSDEEL IN ANDERE POS. OPGENOM
+ZAX=TIJDVASTSTELLING DOOR AUDATEX
+
+         SCHADEVASTSTELLING HOUDT GEEN  VERPLICHTING TOT VERGOEDING IN
+(C)ALLE RECHTEN VAN HET SPUIT CALC-SYSTEEM (AZT) ZIJN GERESERVEERD DOOR AZT
+AUTOMOTIVE GMBH
+
+
+                               SYSTEEM AUDATEX                 BLAD      4
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+C O N T R O L E  -  G E G E V E N S   NR  14412777               18.11.2026
+
+EIGENAAR    AYVENS (AXUS NEDERLAND B.   JOAN MUYSKENWEG 30
+            1114 AN AMSTERDAM
+SCHADE-NR   14412777
+
+MERK        MAZDA                 2 HYBRID (KBAC3)      PRIME-LINE
+VTG.-ID.-NR.JMZKBAC360A439709     KENT.   JRR-55-X      TYPE-CODE   36 2N 07
+----------------------------------------------------------------------------
+GEBRUIKERSNUMMER         : 861971                     CLASSDIRECT  REL 23.09
+                                                    VERSIE NUMMER 50.2309.01
+
+BEREKENINGS-DATUM        : 18.11.2026
+
+US-CODES
+- BASIS-SPECIFICATIES    : B7 G3 G5 G6 H6 I3 I4 I5 I6 N1 P7 R1 S1 Z8
+
+ONDERDELEN / SPUITWERK
+- REPARATIE-/CONTR.-INFO : B  0253 OB / B  0256 OB / V  0742 ---> B  0281 E
+                           V  0742 ---> B  0281 OB / B  0410 OB / B  1566 OB
+                           B  1626 OB / V  0742 ---> B  0562 E
+                           V  0742 ---> B  0562 OB
+
+- REPARATIE-/CONTR.-INFO : H  0281 --->     227.60   V  0281 --->     598.79
+
+TARIEF
+- TIJDBASIS              :   10 AE=1 UUR
+- WERKPLAATS             :   11.38 EURO/AE
+- SPUITERIJ              :   11.60 EURO/AE
+
+TEKSTZONE-CODES
+- ACTIEVE CODES          :  51  100.00 /  70   15.65 /  74   91.06
+                            90   12.00 / 123    0.24
+- ONGELDIGE CODES        :  93   48.12
+
+ONDERDELEN
+- PRIJSLIJST VAN         : 01.11.2026
+- OND.PRIJSDATUM MASTER  : 01.11.2026
+
+SPUITWERK
+SPUIT-MAT PRIJSDATUM     : 19.06.2026
+- REPARATIE-/CONTR.-INFO : SV 0742    / SV11746    / SH 0281    / SH 1522
+
+
+AANTAL POSITIES
+- INGEVOERD              :     17
+- VERWERKT               :     19
+
+
+TOTAAL EINDCALCULATIE
+ARBEID:    876.26 BIJK.:    106.71 SPUIT:  1 083.47 DELEN:    763.95
+REPKOS:  2 865.19   BTW:    601.69 INCL.:  3 466.88
+
+
+                               SYSTEEM AUDATEX
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+C O N T R O L E  -  G E G E V E N S   NR  14412777               18.11.2026
+
+OVERZICHT INVOERGEGEVENS :
+B  9973   4    H  0281  20    SH 0281        QM 000000000030B  0281
+B  0256        B  0410        B  0253        V  0742        SH 1522
+B  1626        SV 1746        V  1746        V  1738        B  1566
+V  7212
+B  00179 FOUTGEHEUGEN UITLE- ZEN NA REP                31
+B  00169 FOUTGEHEUGEN UITLE- ZEN VOOR REP              31
+
+
+                               SYSTEEM AUDATEX

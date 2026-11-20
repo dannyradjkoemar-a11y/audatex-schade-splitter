@@ -1,0 +1,6 @@
+{
+  "name": "Audatex Schade Calculatie Splitter",
+  "description": "Geavanceerde analysetool voor Solera Audatex schadecalculaties: automatisch splitsen van voor- en achterzijde, spuittijd, AZT-materiaalconstante (TZ 51/143) en totaalbedragen in een overzichtelijk rapport.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
