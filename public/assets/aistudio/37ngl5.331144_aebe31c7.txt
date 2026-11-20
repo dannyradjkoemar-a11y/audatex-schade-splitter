@@ -1,0 +1,338 @@
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+S C H A D E - C A L C U L A T I E   NR  14179704                 15.10.2026
+
+
+R E S U L T A T E N B L A D
+
+   SCHADENUMMER                   : 14179704
+
+   EIGENAAR OBJECT                : H. VISSER
+                                  : ACHTER DE HOVEN 265
+                                  : 8933 CM LEEUWARDEN
+
+
+   OBJECT-GEGEVENS
+     TYPE-CODE                    : 01 45 01
+
+     MERK                         : BMW
+     MODEL/TYPE                   : 5-SERIE (E60/E61) / 520I
+
+     KENTEKEN                     : 37-NGL-5
+     CHASSISNUMMER                : WBAPT11040CW92687
+     AFGIFTE DEEL 1/APK-DATUM     : 06.09.2010 / 12.12.2026
+     KILOMETERSTAND               : 251809 KM
+
+   EXPERTISE-GEGEVENS
+     SCHADE-DATUM                 : 19.09.2026
+
+
+     TOESTAND OBJECT              : GOED
+
+     REPARATEUR                   : SCHADENET BOURGUIGNO
+                                  : JUPITERWEG 5
+                                  : 8938 AD LEEUWARDEN
+                                  : 058-2883945
+                                  : schadenet@bourguignon.nl
+     REPARATIEDUUR                : 1
+
+
+
+----------------------------------------------------------------------------
+
+   SAMENVATTING VAN DE EINDCALCULATIE                                  EURO
+
+     TOTAALBEDRAG   O N D E R D E L E N                            2 095.68
+
+     TOTAALBEDRAG   A R B E I D S L O O N                            969.10
+
+     TOTAALBEDRAG   B I J K O M E N D E  K O S T E N                  12.50
+
+     TOTAALBEDRAG   S P U I T W E R K                              1 234.42
+
+     TOTAALBEDRAG    M I L I E U T O E S L A G                        41.40
+
+   R E P A R A T I E K O S T E N   EXCL. BTW                       4 353.10
+     BTW  21.00 %                                                    914.15
+   R E P A R A T I E K O S T E N   INCL. BTW                       5 267.25
+
+     INCL. BEGROTINGSKOSTEN REPARATEUR; AANTAL AE       12.00-
+
+
+                               SYSTEEM AUDATEX                 BLAD      1
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+S C H A D E - C A L C U L A T I E   NR  14179704                 15.10.2026
+
+EIGENAAR    H. VISSER                   ACHTER DE HOVEN 265
+            8933 CM LEEUWARDEN
+SCHADE-NR   14179704
+
+MERK        BMW                   5-SERIE (E60/E61)     520I
+VTG.-ID.-NR.WBAPT11040CW92687     KENT.   37-NGL-5      TYPE-CODE   01 45 01
+
+BASIS-      VA 09/2009            DAKRELING             AIRCO-AUTOMAAT
+SPEC.       INTERIEURL HOOGGLANS  XENON-LICHT           KOPL-SPROEI-INST
+            BEKL LEER DAKOTA      NAV-SYS PROFESSIONAL  BEKERHOUDERS V/A
+            TREKHAAK              ALARMSYSTEEM          1995CCM 125KW
+            SPORTSTUUR LEER       6-VERSN AUTOMAAT      BANDEN 225/50 R17..W
+            VELGEN 7,5 J X 17 LM  5-DEURS               PARKEERHULP
+            CHROOM LINE           CRUISE CONTR/REMFUNC  SPRAAKBEDIENING
+----------------------------------------------------------------------------
+
+O N D E R D E L E N                            PRIJSLIJST VAN  : 01.10.2026
+
+CODE-NR         BENAMING             ONDERDEEL-NR                     PRIJS
+
+0257            KENTEKENPLAAT V                                       15.00*
+0258            KENTEKEN-VERST V                                       2.50*
+0283            BUMPERBEKLEDING V     51 11 7 178 079                672.73
+0303            LU-ROOSTER BUMPER V   51 11 7 178 115                 38.43
+0305            AFDEK M BUMPER V      51 11 7 178 096                 27.69
+0307            LU-ROOSTER L BUMPER   51 11 7 178 097                 38.43
+0308            LU-ROOSTER R BUMPER   51 11 7 178 098                 38.43
+0317            STEUN L BUMPER V      51 11 7 178 077                 29.75
+0318            STEUN R BUMPER V      51 11 7 178 078                 29.75
+0336            STEUN BUMPER V        51 11 7 178 080                338.84
+0339            SCHOKDEMPER V L       51 11 7 178 081                 35.54
+2583            BUMPERBEKLEDING A     51 12 7 184 750                801.65
+2619            STEUN L BUMPER A      51 12 7 060 795                 70.25
+2620            STEUN R BUMPER A      51 12 7 060 796                 70.25
+----------------------------------------------------------------------------
+
+A R B E I D S L O O N   TIJDBASIS   10 AE=1 UUR  TARIEF/KL1 =  8.81 EURO/AE
+                                                 TARIEF/KL2 =  8.81 EURO/AE
+                                                 TARIEF/KL3 =  8.81 EURO/AE
+
+ARB.POS.NR/  SPECIFICATIE HERSTELWERKZAAMHEDEN          KL      AE    ARB.-
+CODE-NR                                                               LOON
+
+GN           TIJDTOESLAG VOOR EEN HOOFDBEWERKING         3       2    17.62
+51 11 656    BUMPER V UIT-/INBOUWEN                      3       4    35.24
+51 11 551    STEUN BUMPER V UIT-/INBOUWEN                3       3    26.43
+51 11 592    BEKL BUMPER V VERNIEUWEN                    3       8    70.48
+             (BUMPER V UITGEBOUWD)
+61 67 802    EXTRA WERK VOOR KOPLAMP-                    3       4    35.24
+             REINIGINGSINSTALLATIE
+             OMVAT: SPROEIERS UIT-/INBOUWEN
+66 20 610    EXTRA WERK VOOR PARK DISTANCE CONTROL       3       3    26.43
+51 11 701    STEUN BUMPER V L VERNIEUWEN (UITGEBOUWD)    3       1     8.81
+51 11 701    STEUN BUMPER V R VERNIEUWEN (UITGEBOUWD)    3       1     8.81
+63 10 502    KOPLAMP AFSTELLEN                           3       2    17.62
+51 12 656ZNL BUMPER A UIT-/INBOUWEN                      3       6    52.86
+
+
+                               SYSTEEM AUDATEX                 BLAD      2
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+S C H A D E - C A L C U L A T I E   NR  14179704                 15.10.2026
+
+A R B E I D S L O O N   TIJDBASIS   10 AE=1 UUR  TARIEF/KL1 =  8.81 EURO/AE
+                                                 TARIEF/KL2 =  8.81 EURO/AE
+                                                 TARIEF/KL3 =  8.81 EURO/AE
+
+ARB.POS.NR/  SPECIFICATIE HERSTELWERKZAAMHEDEN          KL      AE    ARB.-
+CODE-NR                                                               LOON
+
+66 20 603    EXTRA WERK VOOR PARK DISTANCE CONTROL       3       3    26.43
+51 12 657    BEKLEDING ACHTERBUMPER VERNIEUWEN           3       1     8.81
+             (BUMPER UITGEBOUWD)
+51 12 801    HOUDER BUMPER A L VERNIEUWEN                3       1     8.81
+51 12 801    HOUDER BUMPER A R VERNIEUWEN                3       1     8.81
+GN           AFD ACHTERLICHTEN ACHTERKLEP UIT-/INB       3       1     8.81
+51 99 510    KENTEKENPLAAT A UIT-/INBOUWEN               3       1     8.81
+63 21 683)   ACHTERLICHT L ACHTERKLEP UIT-/INBOUWEN      2       1     8.81
+63 21 683)   ACHTERLICHT R ACHTERKLEP UIT-/INBOUWEN      2       1     8.81
+
+9852         FOUTGEHEUGEN NA REP UITLEZEN                1       3*   26.43
+9854         FOUTGEHEUGEN UITLEZEN                       1       3*   26.43
+
+2938         ACHTERKLEP ONDER HERSTELLEN                 3      60*  528.60
+----------------------------------------------------------------------------
+
+S P U I T W E R K         SYSTEEM AZT
+                                         SPUITMAT-PRIJZEN PER   : 19.06.2026
+
+CODE-NR      AANDUIDING   - 2-LAGEN METALLIC                    AE
+
+0283         BUMPER V             SPUITEN NA VERN. SV1          14
+2583         BUMPER A             SPUITEN NA VERN. SV1          14
+2938         ACHTERKLEP ONDER     SPUITEN NA HERST.             14
+
+             SPUITLOON                                     AE         ARB.-
+              TARIEF                   8.81 EURO/AE                   LOON
+              SPUITTIJD                                    42
+              HOOFD VOORBER. NL-SPEC. METAAL               23
+              GECOMBINEERDE VOORBER. KUNSTSTOF              5
+              TOTAAL                    10 AE/UUR :        70        616.70
+
+             SPUIT-MATERIAALKOSTEN                                    PRIJS
+              SPUITEN NA VERN. SV1                                   531.86
+              SPUITEN NA HERST.                                       79.30
+              HOOFDMATERIAALCONST. NL-SPEC. METAAL                    56.80
+              GECOMB. MATERIAALCONSTANTE KUNSTSTOF                    18.40
+              MATERIAALINDEX                            90.00 %       68.64-
+
+
+                               SYSTEEM AUDATEX                 BLAD      3
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+S C H A D E - C A L C U L A T I E   NR  14179704                 15.10.2026
+
+
+
+
+
+
+   E I N D C A L C U L A T I E                              EURO       EURO
+   ---------------------------
+
+   O N D E R D E L E N                                  2 209.24
+     KORTING     7.00%                                    154.65-
+     KLEINMATERIAAL   (  2.0%)                             41.09
+   TOTAALBEDRAG ONDERDELEN .....................................   2 095.68
+
+   A R B E I D S L O O N   TIJDBASIS   10 AE = 1 UUR
+     TOTAAL KL 1           6 AE  X    8.81 EURO/AE         52.86
+     TOTAAL KL 2           2 AE  X    8.81 EURO/AE         17.62
+     TOTAAL KL 3         102 AE  X    8.81 EURO/AE        898.62
+   TOTAALBEDRAG ARBEIDSLOON ....................................     969.10
+
+   B I J K O M E N D E  K O S T E N
+     ANTI-ROESTBEHANDELING                                 12.50
+   TOTAALBEDRAG BIJKOMENDE KOSTEN...............................      12.50
+
+   S P U I T W E R K
+     ARBEIDSLOON                                          616.70
+     SPUIT-MATERIAALKOSTEN                                617.72
+   TOTAALBEDRAG SPUITWERK ......................................   1 234.42
+                                                                -----------
+   REPARATIEKOSTEN EXCL. MILIEUTOESLAG                             4 311.70
+     TOESLAG WP+SP (110 AE + 70 AE) X 0.23 EURO/AE         41.40
+   TOTAALBEDRAG MILIEUTOESLAG...................................      41.40
+
+   REPARATIEKOSTEN EXCL. BTW....................................   4 353.10
+   -------------------------                                     ----------
+     BTW  21.00 %                                                    914.15
+
+   R E P A R A T I E K O S T E N   INCL. BTW....................   5 267.25
+
+     INCL. BEGROTINGSKOSTEN REPARATEUR; AANTAL AE          12.00-
+
+
+
+
+
+
+
+
+
+VERKLARINGEN:
+ONDERDEELPRIJS = PRIJS FABR./IMP.      * = GEBRUIKERSOPGAVE
+ONDERDEELNR. NIET ALTIJD BESTELNR.     GN = GEEN ONDERDEEL-/ARB.-POS.-NR.
+) = TIJDSDEEL IN ANDERE POS. OPGENOM
+
+         SCHADEVASTSTELLING HOUDT GEEN  VERPLICHTING TOT VERGOEDING IN
+(C)ALLE RECHTEN VAN HET SPUIT CALC-SYSTEEM (AZT) ZIJN GERESERVEERD DOOR AZT
+AUTOMOTIVE GMBH
+
+
+                               SYSTEEM AUDATEX                 BLAD      4
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+C O N T R O L E  -  G E G E V E N S   NR  14179704               15.10.2026
+
+EIGENAAR    H. VISSER                   ACHTER DE HOVEN 265
+            8933 CM LEEUWARDEN
+SCHADE-NR   14179704
+
+MERK        BMW                   5-SERIE (E60/E61)     520I
+VTG.-ID.-NR.WBAPT11040CW92687     KENT.   37-NGL-5      TYPE-CODE   01 45 01
+----------------------------------------------------------------------------
+GEBRUIKERSNUMMER         : 861971                     CLASSDIRECT  REL 23.09
+                                                    VERSIE NUMMER 50.2309.01
+
+BEREKENINGS-DATUM        : 15.10.2026
+
+US-CODES
+- US CODES AUDAID        : B3 C9 F1 G1 I1 I6 J3 K9 L2 M1 N1 O8 P9 R4 S3 W5
+                           X6 X7 Y1 Y4 Z3
+- BASIS-SPECIFICATIES    : B3 C9 F1 G1 I1 I6 J3 K9 L2 L9 M1 N1 O8 P9 R4 S3
+                           W5 X6 X7 Y1 Y4 Z3
+
+ONDERDELEN / SPUITWERK
+- REPARATIE-/CONTR.-INFO : B  2702 OB / B  3283 OB / B  3284 OB
+                           V  0317 ---> B  0283 E  / V  0317 ---> B  0283 OB
+
+TARIEF
+- TIJDBASIS              :   10 AE=1 UUR
+- WERKPLAATS             :    8.81 EURO/AE         8.81 EURO/AE
+                              8.81 EURO/AE
+- SPUITERIJ              :    8.81 EURO/AE
+
+TEKSTZONE-CODES
+- ACTIEVE CODES          :  20    7.00 /  51   90.00 /  70   12.50
+                            90   12.00 / 123    0.23
+- ONGELDIGE CODES        :  93   45.00
+
+ONDERDELEN
+- PRIJSLIJST VAN         : 01.10.2026
+- OND.PRIJSDATUM MASTER  : 01.10.2026
+
+SPUITWERK
+SPUIT-MAT PRIJSDATUM     : 19.06.2026
+- REPARATIE-/CONTR.-INFO : SV10283    / SV12583    / SH 2938
+
+
+AANTAL POSITIES
+- INGEVOERD              :     20
+- VERWERKT               :     24
+
+
+TOTAAL EINDCALCULATIE
+ARBEID:    969.10 BIJK.:     12.50 SPUIT:  1 234.42 DELEN:  2 095.68
+REPKOS:  4 353.10   BTW:    914.15 INCL.:  5 267.25
+
+OVERZICHT INVOERGEGEVENS :
+V  0283        B  9852   3    B  9854   3    V  0257        VM         1500
+V  0258        VM          250V  0303        V  0307        V  0308
+V  0339        V  0305        V  0336        V  0317        V  0318
+V  2583        V  2620        V  2619        GH 2938  60    B  3283
+
+
+                               SYSTEEM AUDATEX
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+                            SCHADENET BOURGUIGNON
+
+                      JUPITERWEG 5  8938 AD LEEUWARDEN
+
+C O N T R O L E  -  G E G E V E N S   NR  14179704               15.10.2026
+
+B  3284        B  2702
+
+
+                               SYSTEEM AUDATEX

@@ -39,6 +39,7 @@ import { AftrekCalculator } from './components/AftrekCalculator';
 import { AztNaslag } from './components/AztNaslag';
 import { AppLogo } from './components/AppLogo';
 import { SchadeVisuals } from './components/SchadeVisuals';
+import { CinemaIntro } from './components/CinemaIntro';
 import { 
   HelpCircle, 
   Printer, 
@@ -50,7 +51,8 @@ import {
   Download,
   Loader2,
   CheckCircle2,
-  ArrowLeftRight
+  ArrowLeftRight,
+  Film
 } from 'lucide-react';
 
 type MainTab = 'splitser' | 'calculator' | 'naslag';
@@ -69,6 +71,7 @@ export default function App() {
   const [activeSubView, setActiveSubView] = useState<SubView>('report');
   const [showConfig, setShowConfig] = useState<boolean>(false);
   const [tableFilterRequest, setTableFilterRequest] = useState<{ zone: string; seq: number } | null>(null);
+  const [isCinemaIntroOpen, setIsCinemaIntroOpen] = useState<boolean>(true);
 
   const isStandaloneHtml =
     (typeof __IS_STANDALONE_HTML__ !== 'undefined' && __IS_STANDALONE_HTML__) ||
@@ -900,6 +903,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#f6f7f9] text-slate-900 flex flex-col font-sans">
+      {/* Immediate Full-Screen Video Intro on Site Open */}
+      {isCinemaIntroOpen && (
+        <CinemaIntro onFinish={() => setIsCinemaIntroOpen(false)} />
+      )}
+
       {/* Top Navbar - Clean 3-Zone Enterprise Top Bar */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-xs border-b border-slate-200 no-print">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-8">
@@ -952,6 +960,15 @@ export default function App() {
 
           {/* Zone 3: Utility & Primary Actions */}
           <div className="flex items-center gap-2.5 shrink-0">
+            <button
+              onClick={() => setIsCinemaIntroOpen(true)}
+              className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:text-slate-900 bg-white hover:bg-slate-50 border border-slate-200 transition-colors whitespace-nowrap shrink-0"
+              title="Speel de 3D bioscoop-intro opnieuw af"
+            >
+              <Film className="w-3.5 h-3.5 text-blue-600" />
+              <span className="hidden sm:inline">Film Intro</span>
+            </button>
+
             <button
               onClick={() => setIsKnowledgeBaseOpen(true)}
               className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:text-slate-900 bg-white hover:bg-slate-50 border border-slate-200 transition-colors whitespace-nowrap shrink-0"
@@ -1015,9 +1032,9 @@ export default function App() {
           <>
             {!data ? (
               /* STATE 1: Geen calculatie geladen -> Wide 2-Column Enterprise Intake Workspace */
-              <div className="py-4 sm:py-8 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+              <div className="py-4 sm:py-6 grid grid-cols-1 lg:grid-cols-12 gap-7 items-start">
                 {/* Left Column: Intake & Upload */}
-                <div className="lg:col-span-7 space-y-5">
+                <div className="lg:col-span-5 space-y-5">
                   <div>
                     <p className="text-xs font-semibold text-blue-700 tracking-wide mb-1.5">
                       Solera Audatex & AZT Schade-expertise
@@ -1025,8 +1042,8 @@ export default function App() {
                     <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight text-balance">
                       Schadecalculaties zuiver splitsen per voertuigzone
                     </h2>
-                    <p className="text-sm text-slate-600 mt-2 max-w-2xl leading-relaxed">
-                      Plak een Audatex-tekstexport of upload een calculatiebestand. Alle 6 voertuigzijden (voor-, achter-, linker-, rechter-, boven- en onderzijde), spuittijden in AE (10 AE = 1 uur), AZT-materiaalconstanten (TZ 51 / TZ 143) en RDW-dagwaarde worden direct overzichtelijk uitgesplitst.
+                    <p className="text-sm text-slate-600 mt-2 leading-relaxed">
+                      Plak een Audatex-tekstexport of upload een calculatiebestand. Alle 6 voertuigzijden, spuittijden in AE (10 AE = 1 uur), AZT-materiaalconstanten (TZ 51 / TZ 143) en RDW/ANWB-dagwaarde worden direct uitgesplitst.
                     </p>
                   </div>
 
@@ -1038,120 +1055,88 @@ export default function App() {
                   />
                 </div>
 
-                {/* Right Column: Graphical Split Blueprint & Workflow Showcase */}
-                <div className="lg:col-span-5 bg-white border border-slate-200 rounded-xl p-6 space-y-5">
-                  <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-                    <div>
-                      <h3 className="text-sm font-bold text-slate-900">
-                        Automatische Splitsingsmethodiek (6 Zijden)
-                      </h3>
-                      <p className="text-xs text-slate-500">
-                        Eén gecombineerde calculatie naar onderbouwde dossiers per voertuigzone
-                      </p>
+                {/* Right Column: Clean 3-Step Workflow + Capabilities */}
+                <div className="lg:col-span-7 space-y-4">
+                  <div className="bg-white border border-slate-200 rounded-xl p-5 sm:p-6 space-y-4">
+                    <div className="flex flex-wrap items-center justify-between gap-3">
+                      <div>
+                        <h3 className="text-sm font-bold text-slate-900">
+                          Hoe werkt het splitsen van een Audatex-calculatie?
+                        </h3>
+                        <p className="text-xs text-slate-500 mt-0.5">
+                          Van één gecombineerde export naar twee losse, kloppende dossiers in 3 stappen.
+                        </p>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setIsCinemaIntroOpen(true)}
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 border border-blue-200 transition-colors whitespace-nowrap"
+                      >
+                        <Film className="w-3.5 h-3.5" />
+                        <span>Bekijk Intro Video</span>
+                      </button>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3.5 pt-1">
+                      <div className="p-3.5 rounded-lg bg-slate-50 border border-slate-200/80">
+                        <span className="inline-flex items-center justify-center w-6 h-6 rounded-md bg-slate-900 text-white text-xs font-bold mb-2">
+                          1
+                        </span>
+                        <h4 className="text-xs font-bold text-slate-900 mb-1">
+                          Plak of upload dossier
+                        </h4>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Upload een Audatex PDF/tekstbestand of plak de volledige calculatietekst.
+                        </p>
+                      </div>
+
+                      <div className="p-3.5 rounded-lg bg-slate-50 border border-slate-200/80">
+                        <span className="inline-flex items-center justify-center w-6 h-6 rounded-md bg-blue-600 text-white text-xs font-bold mb-2">
+                          2
+                        </span>
+                        <h4 className="text-xs font-bold text-slate-900 mb-1">
+                          Zone- &amp; AZT-analyse
+                        </h4>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Alle posten worden per voertuigzone en spuitfase (TZ 51 &amp; TZ 143) uitgesplitst.
+                        </p>
+                      </div>
+
+                      <div className="p-3.5 rounded-lg bg-slate-50 border border-slate-200/80">
+                        <span className="inline-flex items-center justify-center w-6 h-6 rounded-md bg-emerald-600 text-white text-xs font-bold mb-2">
+                          3
+                        </span>
+                        <h4 className="text-xs font-bold text-slate-900 mb-1">
+                          2 aparte rapporten
+                        </h4>
+                        <p className="text-[11px] text-slate-600 leading-relaxed">
+                          Download direct twee gescheiden A4 PDF-calculaties inclusief ANWB-koerscheck.
+                        </p>
+                      </div>
                     </div>
                   </div>
 
-                  {/* Graphical Split Diagram SVG */}
-                  <div className="bg-slate-50 border border-slate-200/80 rounded-lg p-4">
-                    <svg
-                      viewBox="0 0 360 175"
-                      className="w-full h-auto"
-                      role="img"
-                      aria-label="Grafisch schema van calculatiesplitsing over 6 voertuigzones en RDW dagwaarde"
-                    >
-                      <defs>
-                        <pattern id="intakeGrid" width="16" height="16" patternUnits="userSpaceOnUse">
-                          <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#E2E8F0" strokeWidth="0.6" />
-                        </pattern>
-                      </defs>
-                      <rect width="360" height="175" fill="url(#intakeGrid)" rx="6" />
-
-                      {/* Input Sheet on Left */}
-                      <g transform="translate(16, 22)">
-                        <rect x="0" y="0" width="96" height="128" rx="6" fill="#FFFFFF" stroke="#CBD5E1" strokeWidth="1.5" />
-                        <rect x="0" y="0" width="96" height="22" rx="6" fill="#0F172A" />
-                        <rect x="0" y="14" width="96" height="8" fill="#0F172A" />
-                        <text x="10" y="14.5" fill="#FFFFFF" fontSize="8" fontWeight="700" fontFamily="Plus Jakarta Sans, sans-serif">
-                          AUDATEX PDF/TXT
-                        </text>
-                        <rect x="10" y="34" width="52" height="5" rx="2" fill="#94A3B8" />
-                        <rect x="68" y="34" width="18" height="5" rx="2" fill="#3B82F6" />
-                        <rect x="10" y="48" width="46" height="5" rx="2" fill="#CBD5E1" />
-                        <rect x="68" y="48" width="18" height="5" rx="2" fill="#3B82F6" />
-                        <rect x="10" y="64" width="54" height="5" rx="2" fill="#94A3B8" />
-                        <rect x="68" y="64" width="18" height="5" rx="2" fill="#0D9488" />
-                        <rect x="10" y="78" width="42" height="5" rx="2" fill="#CBD5E1" />
-                        <rect x="68" y="78" width="18" height="5" rx="2" fill="#6366F1" />
-                        <line x1="10" y1="96" x2="86" y2="96" stroke="#E2E8F0" strokeWidth="1" />
-                        <rect x="10" y="106" width="76" height="10" rx="3" fill="#F1F5F9" />
-                        <text x="14" y="113.5" fill="#334155" fontSize="7" fontWeight="700" fontFamily="JetBrains Mono, monospace">
-                          6 ZONES • 10 AE
-                        </text>
-                        {/* Diagonal split slash */}
-                        <line x1="-6" y1="92" x2="102" y2="34" stroke="#FFFFFF" strokeWidth="4" />
-                        <line x1="-6" y1="92" x2="102" y2="34" stroke="#2563EB" strokeWidth="2" strokeLinecap="round" />
-                      </g>
-
-                      {/* Connector arrows */}
-                      <path d="M 120 64 C 146 64, 146 44, 174 44" fill="none" stroke="#2563EB" strokeWidth="1.8" />
-                      <polygon points="174,40 182,44 174,48" fill="#2563EB" />
-
-                      <path d="M 120 104 C 146 104, 146 124, 174 124" fill="none" stroke="#4F46E5" strokeWidth="1.8" />
-                      <polygon points="174,120 182,124 174,128" fill="#4F46E5" />
-
-                      {/* Top Output Card: Schade 1 */}
-                      <g transform="translate(186, 16)">
-                        <rect x="0" y="0" width="158" height="62" rx="6" fill="#FFFFFF" stroke="#93C5FD" strokeWidth="1.5" />
-                        <rect x="0" y="0" width="158" height="18" rx="6" fill="#EFF6FF" />
-                        <text x="10" y="12" fill="#1D4ED8" fontSize="8" fontWeight="700" fontFamily="Plus Jakarta Sans, sans-serif">
-                          SCHADE 1 · VOOR / LINKS / BOVEN
-                        </text>
-                        <text x="10" y="34" fill="#0F172A" fontSize="11" fontWeight="800" fontFamily="JetBrains Mono, monospace">
-                          Spuit AE + Foutgeheugen 1×
-                        </text>
-                        <text x="10" y="50" fill="#475569" fontSize="8" fontFamily="JetBrains Mono, monospace">
-                          TZ 51 Constante 100%
-                        </text>
-                      </g>
-
-                      {/* Bottom Output Card: Schade 2 */}
-                      <g transform="translate(186, 94)">
-                        <rect x="0" y="0" width="158" height="62" rx="6" fill="#FFFFFF" stroke="#A5B4FC" strokeWidth="1.5" />
-                        <rect x="0" y="0" width="158" height="18" rx="6" fill="#EEF2FF" />
-                        <text x="10" y="12" fill="#4338CA" fontSize="8" fontWeight="700" fontFamily="Plus Jakarta Sans, sans-serif">
-                          SCHADE 2 · RECHTS / ACHTER / ONDER
-                        </text>
-                        <text x="10" y="34" fill="#0F172A" fontSize="11" fontWeight="800" fontFamily="JetBrains Mono, monospace">
-                          Spuit AE + Onderdelen
-                        </text>
-                        <text x="10" y="50" fill="#B45309" fontSize="8" fontWeight="700" fontFamily="JetBrains Mono, monospace">
-                          TZ 143 Aftrek toegepast
-                        </text>
-                      </g>
-                    </svg>
-                  </div>
-
-                  {/* Clean 3-point capability list */}
-                  <div className="space-y-3 text-xs">
-                    <div className="flex items-start gap-2.5">
+                  {/* Clean 3-point capability strip */}
+                  <div className="bg-white border border-slate-200 rounded-xl p-4 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
+                    <div className="flex items-start gap-2">
                       <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                       <div>
-                        <span className="font-semibold text-slate-900">Directe AE- & AZT-berekening:</span>{' '}
-                        <span className="text-slate-600">Herkent spuitfasen (SV1–4, SH/SH1, LB, LS, Z1) en voorkomt dubbele materiaalconstante via TZ 143.</span>
+                        <span className="font-semibold text-slate-900 block">AE &amp; AZT-splitsing</span>
+                        <span className="text-slate-600">Herkent spuitfasen (SV1–4, SH, LB) en past TZ 143-aftrek toe.</span>
                       </div>
                     </div>
-                    <div className="flex items-start gap-2.5">
+                    <div className="flex items-start gap-2">
                       <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                       <div>
-                        <span className="font-semibold text-slate-900">RDW Open Data & Dagwaarde-toets:</span>{' '}
-                        <span className="text-slate-600">Leest automatisch het kenteken uit en toont een visuele herstelkosten-dagwaarde meter (67%-grens).</span>
+                        <span className="font-semibold text-slate-900 block">RDW &amp; ANWB Koerslijst</span>
+                        <span className="text-slate-600">Automatische dagwaarde- en occasioncheck op kenteken.</span>
                       </div>
                     </div>
-                    <div className="flex items-start gap-2.5">
+                    <div className="flex items-start gap-2">
                       <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                       <div>
-                        <span className="font-semibold text-slate-900">Professioneel PDF-splitsingsrapport:</span>{' '}
-                        <span className="text-slate-600">Exporteer direct een kant-en-klaar A4-rapport met kentekenplaat, tabellen en akkoordblokken.</span>
+                        <span className="font-semibold text-slate-900 block">Direct A4 PDF-rapport</span>
+                        <span className="text-slate-600">Exporteer twee kant-en-klare dossiers voor de expert.</span>
                       </div>
                     </div>
                   </div>
